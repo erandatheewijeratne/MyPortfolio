@@ -1,9 +1,9 @@
+import Hero from "./sections/Hero";
+
 const App = () => {
   return (
     <div>
-      <div>
-        <h1 className="text-3xl underline">Welcome to my 3D portfolio!</h1>
-      </div>
+      <Hero />
     </div>
   );
 };
